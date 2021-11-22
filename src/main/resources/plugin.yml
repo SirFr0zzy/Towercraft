@@ -1,0 +1,11 @@
+name: MultiWorldSystem
+version: 1.5.7
+main: de.sirfrozzy.multiworldsystem.MultiWorldSystem
+api-version: 1.17
+description: Keine gewaehrleistung auf Welten verlust
+authors: [ SirFrozzy ]
+
+commands:
+  multiworldsystem:
+    aliases:
+      - mvs
