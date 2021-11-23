@@ -23,6 +23,7 @@ public class WaterGenerator extends ChunkGenerator {
         this.max = 18;
     }
 
+
     //ChunkData chunk, int max, Material bottom, Material surface, Material fill
     public ChunkData generateChunkData(World world, Random random, int chunkX, int chunkZ, BiomeGrid biome) {
         ChunkData chunk = createChunkData(world);

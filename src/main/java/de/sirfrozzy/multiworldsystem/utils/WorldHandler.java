@@ -228,6 +228,7 @@ public class WorldHandler {
         List<String> worlds = cfg.getStringList("worlds");
         worlds.remove(world.getName());
         cfg.set("worlds", worlds);
+
         cfg.set("tata", null);
         worldList.remove(world);
         deleteFolder(new File(name));
