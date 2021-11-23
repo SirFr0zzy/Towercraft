@@ -186,6 +186,7 @@ public class WorldHandler {
         }
 
         World world = wc.createWorld();
+        assert world != null;
         world.setTime(6000);
         world.setGameRule(GameRule.DO_DAYLIGHT_CYCLE, false);
         world.setGameRule(GameRule.DO_WEATHER_CYCLE, false);
